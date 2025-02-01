@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - NovaTech</title>
+   
+</head>
+
+<body>
+   
+  <header>
+    <div class="header-container">
+      <h1>NovaTech</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main class="contact-section">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Whether you have a question, suggestion, or feedback, feel free to reach out to us.</p>
+      
+      <div class="contact-info">
+        <div class="contact-methods">
+          <h3>Our Contact Information</h3>
+          <ul>
+            <li><strong>Email:</strong> support@novatech.com</li>
+            <li><strong>Phone:</strong> +1 (800) 123-4567</li>
+            <li><strong>Address:</strong> 123 Tech Avenue, Silicon Valley, CA, 94043</li>
+          </ul>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer>
+    <p>  2025 NovaTech Electronics. All Rights Reserved.</p>
+  </footer>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    
+    
+    header {
+      background-color: #6f00ee;
+      padding: 20px;
+    }
+    
+    header .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    header h1 {
+      color: white;
+      font-size: 2rem;
+    }
+    
+    header nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+    
+    header nav ul li {
+      margin-left: 20px;
+    }
+    
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+    }
+    
+    
+    .contact-section {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+    
+    .contact-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .contact-content h2 {
+      font-size: 2.5rem;
+      color: #6f00ee;
+      margin-bottom: 20px;
+    }
+    
+    .contact-content p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 40px;
+    }
+    
+    
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .contact-methods,
+    .contact-form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 48%;
+    }
+    
+    .contact-methods h3,
+    .contact-form h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #6f00ee;
+    }
+    
+    .contact-methods ul {
+      list-style-type: none;
+      text-align: left;
+      font-size: 1.1rem;
+    }
+    
+    .contact-methods li {
+      margin-bottom: 10px;
+    }
+    
+    .contact-form label {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      text-align: left;
+      color: #333;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+    .contact-form button {
+      font-size: 1.5rem;
+      padding: 12px 20px;
+      color: white;
+      background-color: #6f00ee;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .contact-form button:hover {
+      background-color: #6f00ee;
+    }
+    
+    
+    @media screen and (max-width: 768px) {
+      .contact-info {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contact-methods,
+      .contact-form {
+        width: 100%;
+      }
+    }
+    footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+    </style>
+</body>
+
+</html>
+ 

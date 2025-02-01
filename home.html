@@ -1,0 +1,292 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - NovaTech</title>
+   
+</head>
+
+<body>
+  
+  <header>
+    <div class="header-container">
+      <h1>NovaTech</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+   
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to NovaTech</h2>
+      <p>Your one-stop shop for the latest in tech gadgets and electronics!</p>
+      <a href="Shop.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+   
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-cards">
+      <div class="product-card">
+        <img src="https://telefonika.com/wp-content/uploads/2021/02/HP-250-G10.jpg" alt="Laptop">
+        <h3>Smart Laptops</h3>
+        <p>High-performance laptops for work and play.</p>
+        <a href="Shop.html" class="btn">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://iplanet.one/cdn/shop/files/iPhone_14_Blue_PDP_Image_Position-1A__WWEN.jpg?v=1691142210&width=1920" alt="Smartphone">
+        <h3>Latest Smartphones</h3>
+        <p>Stay connected with cutting-edge mobile technology.</p>
+        <a href="Shop.html" class="btn">Shop Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://hottipsusa.com/cdn/shop/products/Pro_Overear_Wireless_Headphones_Main_White_websize_1024x1024.jpg?v=1670266033" alt="Headphones">
+        <h3>Wireless Headphones</h3>
+        <p>Experience superior sound and comfort.</p>
+        <a href="Shop.html" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+   
+  <section class="about">
+    <h2>About NovaTech</h2>
+    <p>At NovaTech, we provide top-of-the-line tech products that are built to last. With a focus on innovation, quality, and customer satisfaction, we aim to enhance your digital lifestyle.</p>
+    <a href="about.html" class="btn">Learn More</a>
+  </section>
+
+   
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 NovaTech Electronics. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+ /<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+ 
+header {
+  background-color: #003366;
+  padding: 20px;
+}
+
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+ 
+.hero {
+  background-color: #49005f;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #8a00bf;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero .btn:hover {
+  background-color: #49005f;
+}
+
+ 
+.featured-products {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-products h2 {
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-card h3 {
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.product-card .btn {
+  background-color: #49005f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.product-card .btn:hover {
+  background-color: #8a00bf;
+}
+
+  
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.about .btn {
+  background-color: #003366;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about .btn:hover {
+  background-color: #8a00bf;
+}
+
+ 
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+footer .social-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+footer .social-links a:hover {
+  color: #8a00bf;
+}
+
+ 
+@media screen and (max-width: 768px) {
+  .product-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+} 
+
+</style>
